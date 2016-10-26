@@ -1,0 +1,30 @@
+{
+  "name": "iot-niceicon-widget",
+  "version": "0.0.1",
+  "description": "Test widget based on webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buil": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niondir/iot-niceicon-widget.git"
+  },
+  "author": "Tobias Kaupat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niondir/iot-niceicon-widget/issues"
+  },
+  "homepage": "https://github.com/Niondir/iot-niceicon-widget#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-lightning-design-system": "^2.0.2",
+    "webpack": "^1.13.2"
+  }
+}
