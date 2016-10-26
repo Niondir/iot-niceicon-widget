@@ -1,3 +1,4 @@
+var webpack = require("webpack");
 module.exports = {
     entry: "./src/widget.js",
     output: {
@@ -16,5 +17,9 @@ module.exports = {
             },
             {test: /\.css$/, loader: "style!css"}
         ]
-    }
+    },
+    plugins: [
+        new webpack.IgnorePlugin(/^react$/),
+        new webpack.IgnorePlugin(/^react-dom/),
+    ]
 };
